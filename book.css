@@ -1,0 +1,144 @@
+
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #244d6e;
+  padding: 10px 30px;
+  color: white;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.book-icon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 6px 10px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  outline: none;
+}
+
+.search-bar button {
+  background-color: #ffa500;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-bar img {
+  width: 16px;
+  height: 16px;
+}
+/* Book section styles */
+.book-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+.book-card {
+  width: 220px;
+  background-color: #e6f0ff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  text-align: center;
+  padding: 15px;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.book-card h3 {
+  margin: 10px 0 5px;
+  color: #244d6e;
+}
+
+.book-card p {
+  margin: 5px 0;
+  color: #333;
+  font-size: 14px;
+}
+.footer {
+  background-color: #244d6e;
+  color: white;
+  text-align: center;
+  padding: 30px 10px 20px;
+  margin-top: 50px;
+  font-size: 14px;
+  border-top: 2px solid #1d3d57;
+}
+
+.footer-links {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: #ffa500;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-note p {
+  margin: 5px;
+  color: #ccc;
+}
+.next-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffa500;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.next-button:hover {
+  background-color: #e69500;
+}
